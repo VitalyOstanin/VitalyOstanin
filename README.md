@@ -12,7 +12,8 @@ Experienced software engineer with **25+ years of continuous IT experience**, sp
 ## Core Expertise
 
 - **Backend Development**: Node.js, TypeScript, JavaScript, Python, Rust
-- **Database Technologies**: PostgreSQL, MongoDB, Redis, Kafka
+- **Database Technologies**: PostgreSQL, MongoDB
+- **Caching & Messaging**: Redis, Kafka, pg-boss
 - **System Architecture**: Microservices, API design, distributed systems
 - **DevOps & Infrastructure**: Docker, Kubernetes, CI/CD pipelines
 - **Linux Systems**: 20+ years experience with server and desktop environments
@@ -21,43 +22,74 @@ Experienced software engineer with **25+ years of continuous IT experience**, sp
 
 ## Featured Projects
 
-### 🔧 Developer Productivity Tools
-
-**[MCP Chrome Debugger Protocol](https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol)**  
-Advanced debugging solution for Node.js applications through Chrome DevTools Protocol. Features breakpoints, logpoints, source map support, and TypeScript integration for AI coding tools.
-
-**[YouTrack MCP Server](https://github.com/VitalyOstanin/youtrack-mcp)**  
-Comprehensive YouTrack integration server providing issue management, work item tracking, attachment handling, and advanced reporting capabilities through Model Context Protocol.
-
-**[MongoDB MCP Server](https://github.com/VitalyOstanin/mongodb-mcp)**  
-Full-featured MongoDB integration with read-only safety mode, schema analysis, query optimization, and streaming export capabilities for large datasets.
-
-**[PostgreSQL MCP Server](https://github.com/VitalyOstanin/postgres-mcp)**  
-PostgreSQL integration server providing database operations, schema analysis, and query execution through Model Context Protocol.
-
-### 🤖 AI & Automation
-
-**[Sentry MCP Server](https://github.com/VitalyOstanin/sentry-mcp)**  
-MCP server for Sentry integration providing error tracking and monitoring capabilities.
-
-**[GitLab MCP Server](https://github.com/VitalyOstanin/gitlab-mcp)**  
-GitLab integration server for project management and CI/CD pipeline monitoring through Model Context Protocol.
-
-### 🛠️ Development Infrastructure
-
-**[ESLint Prefer De Morgan's Law](https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law)**  
-ESLint rule for applying De Morgan's law to improve code readability and logical expression optimization.
-
-**[Mutex Pool](https://github.com/VitalyOstanin/mutex-pool)**  
-High-performance concurrency control library for Node.js applications requiring resource pooling and synchronized access patterns.
-
-### 📝 Content & Documentation Tools
-
-**[Markdown Org Extract](https://github.com/VitalyOstanin/markdown-org-extract)**  
-Rust-based tool for extracting and organizing content from Markdown files with advanced parsing capabilities. Fully functional productivity tool inspired by [Org Mode](https://orgmode.org/) philosophy.
-
-**[Markdown Org VSCode Extension](https://github.com/VitalyOstanin/markdown-org-vscode)**  
-Visual Studio Code extension for enhanced Markdown organization and content management workflows. Complete implementation following [Org Mode](https://orgmode.org/) principles for structured document management.
+<table align="center">
+<tr>
+  <td width="50%" align="center">
+    <h3>MCP Chrome Debugger Protocol</h3>
+    <p>🔧 Advanced debugging solution for Node.js applications through Chrome DevTools Protocol</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Chrome_DevTools-4285F4?style=flat-square&logo=googlechrome&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol">View Project →</a>
+  </td>
+  <td width="50%" align="center">
+    <h3>YouTrack MCP Server</h3>
+    <p>🎯 Comprehensive YouTrack integration with issue management and advanced reporting</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
+      <img src="https://img.shields.io/badge/YouTrack-000000?style=flat-square&logo=jetbrains&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/youtrack-mcp">View Project →</a>
+  </td>
+</tr>
+<tr>
+  <td width="50%" align="center">
+    <h3>MongoDB MCP Server</h3>
+    <p>🗄️ Full-featured MongoDB integration with read-only safety mode and streaming export</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/mongodb-mcp">View Project →</a>
+  </td>
+  <td width="50%" align="center">
+    <h3>PostgreSQL MCP Server</h3>
+    <p>🐘 PostgreSQL integration with database operations and schema analysis</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/postgres-mcp">View Project →</a>
+  </td>
+</tr>
+<tr>
+  <td width="50%" align="center">
+    <h3>Markdown Org Extract</h3>
+    <p>📝 Rust-based tool for organizing Markdown content inspired by Org Mode philosophy</p>
+    <p>
+      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Org_Mode-77AA99?style=flat-square&logo=&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/markdown-org-extract">View Project →</a>
+  </td>
+  <td width="50%" align="center">
+    <h3>ESLint Prefer De Morgan's Law</h3>
+    <p>⚡ ESLint rule for applying De Morgan's law to improve code readability</p>
+    <p>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+      <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white"/>
+      <img src="https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law">View Project →</a>
+  </td>
+</tr>
+</table>
 
 ## Professional Experience Highlights
 
@@ -77,7 +109,8 @@ Visual Studio Code extension for enhanced Markdown organization and content mana
 ## Languages & Technologies
 
 **Programming**: TypeScript, JavaScript, Node.js, NestJS  
-**Databases**: PostgreSQL, MongoDB, Redis, Kafka  
+**Databases**: PostgreSQL, MongoDB  
+**Caching & Messaging**: Redis, Kafka, pg-boss  
 **Infrastructure**: Kubernetes, Yandex Cloud, Docker, Podman, Linux  
 **AI/ML**: LangGraph, LangChain, OpenAI API, Anthropic Claude, Qwen  
 **Tools**: Git, ESLint, Webpack, Vite, Various IDEs

@@ -12,7 +12,8 @@
 ## Ключевые навыки
 
 - **Backend разработка**: Node.js, TypeScript, JavaScript, Python, Rust
-- **Технологии баз данных**: PostgreSQL, MongoDB, Redis, Kafka
+- **Технологии баз данных**: PostgreSQL, MongoDB
+- **Кэширование и очереди**: Redis, Kafka, pg-boss
 - **Системная архитектура**: Микросервисы, проектирование API, распределенные системы
 - **DevOps и инфраструктура**: Docker, Kubernetes, CI/CD пайплайны
 - **Linux системы**: Более 20 лет опыта работы с серверными и десктопными окружениями
@@ -21,45 +22,77 @@
 
 ## Избранные проекты
 
-### 🔧 Инструменты повышения продуктивности разработчиков
+<table align="center">
+<tr>
+  <td width="50%" align="center">
+    <h3>MCP Chrome Debugger Protocol</h3>
+    <p>🔧 Продвинутое решение для отладки Node.js приложений через Chrome DevTools Protocol</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Chrome_DevTools-4285F4?style=flat-square&logo=googlechrome&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol">Посмотреть проект →</a>
+  </td>
+  <td width="50%" align="center">
+    <h3>YouTrack MCP Server</h3>
+    <p>🎯 Полнофункциональная интеграция с YouTrack — управление задачами и продвинутая отчетность</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
+      <img src="https://img.shields.io/badge/YouTrack-000000?style=flat-square&logo=jetbrains&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/youtrack-mcp">Посмотреть проект →</a>
+  </td>
+</tr>
 
-**[MCP Chrome Debugger Protocol](https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol)**
-Продвинутое решение для отладки Node.js приложений через Chrome DevTools Protocol. Поддерживает breakpoints, logpoints, source maps и интеграцию с TypeScript для ИИ-инструментов разработки.
+<tr>
+  <td width="50%" align="center">
+    <h3>MongoDB MCP Server</h3>
+    <p>🗄️ Полнофункциональная интеграция с MongoDB — безопасный режим и потоковый экспорт</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/mongodb-mcp">Посмотреть проект →</a>
+  </td>
+  <td width="50%" align="center">
+    <h3>PostgreSQL MCP Server</h3>
+    <p>🐘 Интеграция с PostgreSQL — операции с БД и анализ схем</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/postgres-mcp">Посмотреть проект →</a>
+  </td>
+</tr>
+<tr>
+  <td width="50%" align="center">
+    <h3>Markdown Org Extract</h3>
+    <p>📝 Инструмент на Rust для организации Markdown контента в стиле Org Mode</p>
+    <p>
+      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Org_Mode-77AA99?style=flat-square&logo=&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/markdown-org-extract">Посмотреть проект →</a>
+  </td>
+  <td width="50%" align="center">
+    <h3>ESLint Prefer De Morgan's Law</h3>
+    <p>⚡ ESLint правило для применения закона Де Моргана и улучшения читаемости кода</p>
+    <p>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+      <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white"/>
+      <img src="https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law">Посмотреть проект →</a>
+  </td>
+</tr>
+</table>
 
-**[YouTrack MCP Server](https://github.com/VitalyOstanin/youtrack-mcp)**
-Полнофункциональный сервер для интеграции с YouTrack — управление задачами, отслеживание рабочего времени, работа с файлами и продвинутая отчетность через Model Context Protocol.
-
-**[MongoDB MCP Server](https://github.com/VitalyOstanin/mongodb-mcp)**
-Полнофункциональная интеграция с MongoDB — безопасный режим только для чтения, анализ схем, оптимизация запросов и потоковый экспорт больших объемов данных.
-
-**[PostgreSQL MCP Server](https://github.com/VitalyOstanin/postgres-mcp)**
-Сервер для работы с PostgreSQL — операции с базой данных, анализ схем и выполнение запросов через Model Context Protocol.
-
-### 🤖 ИИ и автоматизация
-
-**[Sentry MCP Server](https://github.com/VitalyOstanin/sentry-mcp)**
-MCP сервер для интеграции с Sentry — отслеживание ошибок и мониторинг приложений.
-
-**[GitLab MCP Server](https://github.com/VitalyOstanin/gitlab-mcp)**
-Интеграция с GitLab для управления проектами и мониторинга CI/CD пайплайнов через Model Context Protocol.
-
-### 🛠️ Инфраструктура разработки
-
-**[ESLint Prefer De Morgan's Law](https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law)**
-ESLint правило для применения закона Де Моргана — улучшает читаемость кода и оптимизирует логические выражения.
-
-**[Mutex Pool](https://github.com/VitalyOstanin/mutex-pool)**
-Высокопроизводительная библиотека для управления конкурентностью в Node.js — пулинг ресурсов и синхронизированный доступ.
-
-### 📝 Инструменты для контента и документации
-
-**[Markdown Org Extract](https://github.com/VitalyOstanin/markdown-org-extract)**
-Инструмент на Rust для извлечения и организации контента из Markdown файлов. Полностью рабочий инструмент повышения продуктивности, вдохновленный философией [Org Mode](https://orgmode.org/).
-
-**[Markdown Org VSCode Extension](https://github.com/VitalyOstanin/markdown-org-vscode)**
-Расширение для Visual Studio Code для организации Markdown и управления контентом. Полная реализация принципов [Org Mode](https://orgmode.org/) для структурированной работы с документами.
-
-## Основные достижения
+## Основные достижения профессионального опыта
 
 - **Более 25 лет** в разработке ПО и системной архитектуре
 - **Backend-экспертиза** с возможностями frontend при необходимости
@@ -76,10 +109,11 @@ ESLint правило для применения закона Де Морган
 
 ## Языки программирования и технологии
 
-**Программирование**: TypeScript, JavaScript, Node.js, NestJS
-**Базы данных**: PostgreSQL, MongoDB, Redis, Kafka
-**Инфраструктура**: Kubernetes, Yandex Cloud, Docker, Podman, Linux
-**ИИ/ML**: LangGraph, LangChain, OpenAI API, Anthropic Claude, Qwen
+**Программирование**: TypeScript, JavaScript, Node.js, NestJS  
+**Базы данных**: PostgreSQL, MongoDB  
+**Кэширование и очереди**: Redis, Kafka, pg-boss  
+**Инфраструктура**: Kubernetes, Yandex Cloud, Docker, Podman, Linux  
+**ИИ/ML**: LangGraph, LangChain, OpenAI API, Anthropic Claude, Qwen  
 **Инструменты**: Git, ESLint, Webpack, Vite, различные IDE
 
 ---
