@@ -7,7 +7,7 @@
 
 ## About Me
 
-Experienced software engineer with **25+ years of continuous IT experience**, specializing in full-stack development, system architecture, and developer tooling. Passionate about creating efficient solutions that bridge the gap between complex technical requirements and practical business needs.
+Experienced software engineer with **25+ years of continuous IT experience**, specializing in backend development, system architecture, and developer tooling. Passionate about creating efficient solutions that bridge the gap between complex technical requirements and practical business needs.
 
 ## Core Expertise
 
