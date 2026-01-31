@@ -7,7 +7,7 @@
 
 ## About Me
 
-Experienced software engineer with **25+ years of continuous IT experience**, specializing in backend development, system architecture, and developer tooling. Passionate about creating efficient solutions that bridge the gap between complex technical requirements and practical business needs.
+Experienced software engineer with **25+ years of continuous IT experience**, specializing in backend development, system architecture, and developer tooling. **AI Integration Expert** with advanced experience implementing AI agents (Anthropic Claude, OpenAI, Qwen, DeepSeek) in production environments and extensive team training on practical AI adoption. Passionate about creating efficient solutions that bridge the gap between complex technical requirements and practical business needs.
 
 ## Core Expertise
 
@@ -94,6 +94,8 @@ Experienced software engineer with **25+ years of continuous IT experience**, sp
 ## Professional Experience Highlights
 
 - **25+ years** in software development and system architecture
+- **AI Integration Leadership**: Production implementation of AI agents across multiple models (Anthropic Claude, OpenAI, Qwen, DeepSeek)
+- **Team AI Training**: Extensive experience training development teams on practical AI adoption and integration
 - **Backend expertise** with frontend capabilities when needed
 - **Team leadership** experience in complex technical projects
 - **International collaboration** with distributed development teams
@@ -112,7 +114,7 @@ Experienced software engineer with **25+ years of continuous IT experience**, sp
 **Databases**: PostgreSQL, MongoDB  
 **Caching & Messaging**: Redis, Kafka, pg-boss  
 **Infrastructure**: Kubernetes, Yandex Cloud, Docker, Podman, Linux  
-**AI/ML**: LangGraph, LangChain, OpenAI API, Anthropic Claude, Qwen  
+**AI/ML**: LangGraph, LangChain, OpenAI API, Anthropic Claude, Qwen, DeepSeek  
 **Tools**: Git, ESLint, Webpack, Vite, Various IDEs
 
 ---
