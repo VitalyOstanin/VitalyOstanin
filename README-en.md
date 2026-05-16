@@ -1,24 +1,34 @@
 # Vitaly Ostanin
 
-**Senior Software Engineer & Technical Lead**  
-📧 vitaly.ostanin@gmail.com | 🐙 [GitHub](https://github.com/VitalyOstanin) | 📄 [Resume (EN)](https://github.com/VitalyOstanin/resume/blob/master/README.en.md) | 📄 [Resume (RU)](https://github.com/VitalyOstanin/resume/blob/master/README.md)
+[Русская версия](./README.md)
+
+**Senior Backend Developer / Tech Lead**
+vitaly.ostanin@gmail.com | [GitHub](https://github.com/VitalyOstanin) | [Resume (EN)](https://github.com/VitalyOstanin/resume/blob/master/README.en.md) | [Resume (RU)](https://github.com/VitalyOstanin/resume/blob/master/README.md)
 
 > **Note**: Based in Saint Petersburg, Russia
 
 ## About Me
 
-Experienced software engineer with **25+ years of continuous IT experience**, specializing in backend development, system architecture, and developer tooling. **AI Integration Expert** with advanced experience implementing AI agents (Anthropic Claude, OpenAI, Qwen, DeepSeek) in production environments and extensive team training on practical AI adoption. Passionate about creating efficient solutions that bridge the gap between complex technical requirements and practical business needs.
+Backend engineer and Tech Lead with **25+ years in IT** and **13+ years on Node.js**.
+
+Recent highlights:
+- designed a 4-tier caching system that boosted RPS on bottleneck endpoints by 50–100×;
+- integrated payment providers (CloudPayments, T-Bank, Robokassa) and amoCRM;
+- decommissioned 14 legacy services in favor of 4 maintainable ones;
+- under NDA — designed and implemented a PostgreSQL-based financial core for deposits, accruals, and payouts.
+
+Strong focus on production reliability, observability, and pragmatic AI assistant adoption across development teams.
 
 ## Core Expertise
 
-- **Backend Development**: Node.js, TypeScript, JavaScript, Python, Rust
-- **Database Technologies**: PostgreSQL, MongoDB
-- **Caching & Messaging**: Redis, Kafka, pg-boss
-- **System Architecture**: Microservices, API design, distributed systems
-- **DevOps & Infrastructure**: Docker, Kubernetes, CI/CD pipelines
+- **Backend Development**: Node.js, TypeScript, NestJS, JavaScript (primary); Python, Rust (with AI assistance)
+- **Databases**: PostgreSQL (including transactional financial workloads), MongoDB
+- **Caching & Messaging**: Redis, RabbitMQ, Kafka, NATS, pg-boss
+- **System Architecture**: Microservices, API design, multi-tier caching, distributed systems
+- **DevOps & Infrastructure**: Kubernetes (incl. Yandex Cloud Managed Kubernetes), Docker, Podman, Buildah, Helm, GitLab CI/CD, Harbor
 - **Linux Systems**: 20+ years experience with server and desktop environments
-- **Developer Tools**: ESLint plugins, debugging tools, MCP servers
-- **AI Integration**: LangGraph workflows, multi-agent systems, AI-powered development tools
+- **Testing**: unit (Vitest, Jest), integration, E2E (supertest), load (k6); production memory-leak debugging
+- **Developer Tools**: MCP servers, ESLint plugins, debugging tools
 
 ## Featured Projects
 
@@ -89,33 +99,47 @@ Experienced software engineer with **25+ years of continuous IT experience**, sp
     <a href="https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law">View Project →</a>
   </td>
 </tr>
+<tr>
+  <td width="50%" align="center">
+    <h3>Telegram Exporter</h3>
+    <p><img src="https://cdn.simpleicons.org/telegram/26A5E4" width="16" height="16" alt="Telegram"/> Export Telegram chats and media to local disk with flexible configuration</p>
+    <p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Jinja-B41717?style=flat-square&logo=jinja&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/tg-export">View Project →</a>
+  </td>
+  <td width="50%" align="center"></td>
+</tr>
 </table>
 
-## Professional Experience Highlights
+## Selected Achievements
 
-- **25+ years** in software development and system architecture
-- **AI Integration Leadership**: Production implementation of AI agents across multiple models (Anthropic Claude, OpenAI, Qwen, DeepSeek)
-- **Team AI Training**: Extensive experience training development teams on practical AI adoption and integration
-- **Backend expertise** with frontend capabilities when needed
-- **Team leadership** experience in complex technical projects
-- **International collaboration** with distributed development teams
-- **Continuous learning** mindset with adoption of emerging technologies
+- **Performance**: 50–100× RPS growth on bottleneck endpoints via a 4-tier caching design (in-flight Promise cache → in-memory LRU/TTL → Redis → database)
+- **Financial core (NDA project)**: designed and built the PostgreSQL-based domain for deposits, accruals, and payouts
+- **Integrations**: CloudPayments (payments + 54-FZ fiscal receipts), T-Bank, Robokassa, amoCRM
+- **Legacy reduction**: decommissioned 14 unmaintainable services, replaced with 4 services on a supported stack
+- **Infrastructure**: deployed ~30 legacy Node.js microservices to Yandex Cloud Managed Kubernetes; built a secure, fast GitLab Runner (unprivileged Podman + Buildah + Harbor); set up build + deploy-to-Kubernetes pipelines
+- **Cost optimization**: offloaded workloads from DigitalOcean and Hetzner; prepared a plan to drop Cloudflare
+- **AI adoption**: rolled out AI assistants (Claude Code, OpenAI Codex, VS Code Cline) into the team's daily workflow; trained backend and frontend engineers on Kubernetes and Node.js debugging
+- **Hiring**: participated in closing backend and DevOps positions
 
 ## Current Focus
 
-- **AI-Powered Development Tools**: Building intelligent systems that enhance developer productivity
-- **Model Context Protocol (MCP)**: Creating specialized servers for seamless AI integration
-- **Multi-Agent Systems**: Developing sophisticated workflows using LangGraph and similar frameworks
-- **Developer Experience**: Improving tooling and processes for modern software development
+- **MCP servers**: building specialized servers for Anthropic Claude, OpenAI, Qwen, DeepSeek workflows
+- **AI in production engineering**: pragmatic integration of AI assistants into backend development, testing, and operations
+- **Developer experience**: tooling and processes for modern teams
 
 ## Languages & Technologies
 
-**Programming**: TypeScript, JavaScript, Node.js, NestJS  
+**Programming (primary)**: TypeScript, JavaScript, Node.js, NestJS  
+**Programming (with AI assistance)**: Python, Rust  
 **Databases**: PostgreSQL, MongoDB  
-**Caching & Messaging**: Redis, Kafka, pg-boss  
-**Infrastructure**: Kubernetes, Yandex Cloud, Docker, Podman, Linux  
-**AI/ML**: LangGraph, LangChain, OpenAI API, Anthropic Claude, Qwen, DeepSeek  
-**Tools**: Git, ESLint, Webpack, Vite, Various IDEs
+**Caching & Messaging**: Redis, RabbitMQ, Kafka, NATS, pg-boss  
+**Infrastructure**: Kubernetes, Yandex Cloud, Docker, Podman, Buildah, Helm, GitLab CI/CD, Harbor, Linux  
+**Testing**: unit (Vitest, Jest), integration, E2E (supertest), load (k6)  
+**Tools**: Git, ESLint, Webpack, Vite
 
 ---
 

@@ -1,24 +1,34 @@
 # Виталий Останин
 
-**Ведущий инженер-программист и технический лидер**
-📧 vitaly.ostanin@gmail.com | 🐙 [GitHub](https://github.com/VitalyOstanin) | 📄 [Резюме (EN)](https://github.com/VitalyOstanin/resume/blob/master/README.en.md) | 📄 [Резюме (RU)](https://github.com/VitalyOstanin/resume/blob/master/README.md)
+[English version](./README-en.md)
+
+**Senior Backend Developer / Tech Lead**
+vitaly.ostanin@gmail.com | [GitHub](https://github.com/VitalyOstanin) | [Резюме (RU)](https://github.com/VitalyOstanin/resume/blob/master/README.md) | [Резюме (EN)](https://github.com/VitalyOstanin/resume/blob/master/README.en.md)
 
 > **Примечание**: Живу и работаю в Санкт-Петербурге, Россия
 
 ## Обо мне
 
-Опытный инженер-программист с **более чем 25-летним непрерывным опытом в ИТ**, специализируюсь на backend-разработке, системной архитектуре и создании инструментов для разработчиков. **Эксперт по интеграции ИИ** с продвинутым опытом внедрения ИИ-агентов (Anthropic Claude, OpenAI, Qwen, DeepSeek) в production среде и обширным опытом обучения команд практическому применению ИИ. Создаю эффективные решения, которые помогают связать сложные технические требования с реальными потребностями бизнеса.
+Backend-инженер и Tech Lead. **Более 25 лет в ИТ** и **более 13 лет на Node.js**.
+
+Из недавнего:
+- спроектировал 4-уровневую систему кэширования, давшую рост RPS в 50–100 раз на проблемных endpoints;
+- реализовал интеграции с платёжными системами (CloudPayments, T-Bank, Robokassa) и amoCRM;
+- вывел из эксплуатации 14 устаревших сервисов в пользу 4 новых с поддерживаемым стеком;
+- в проекте под NDA спроектировал и реализовал финансовое ядро на PostgreSQL для приёма депозитов, начислений и выплат.
+
+Фокус: production-надёжность, наблюдаемость, прагматичное внедрение AI-ассистентов в работу команд.
 
 ## Ключевые навыки
 
-- **Backend разработка**: Node.js, TypeScript, JavaScript, Python, Rust
-- **Технологии баз данных**: PostgreSQL, MongoDB
-- **Кэширование и очереди**: Redis, Kafka, pg-boss
-- **Системная архитектура**: Микросервисы, проектирование API, распределенные системы
-- **DevOps и инфраструктура**: Docker, Kubernetes, CI/CD пайплайны
-- **Linux системы**: Более 20 лет опыта работы с серверными и десктопными окружениями
-- **Инструменты разработчика**: ESLint плагины, инструменты отладки, MCP серверы
-- **Интеграция с ИИ**: LangGraph workflows, мультиагентные системы, ИИ-инструменты для разработки
+- **Backend-разработка**: Node.js, TypeScript, NestJS, JavaScript (основные); Python, Rust (с помощью AI-ассистентов)
+- **Базы данных**: PostgreSQL (включая транзакционные финансовые сценарии), MongoDB
+- **Кэширование и очереди**: Redis, RabbitMQ, Kafka, NATS, pg-boss
+- **Системная архитектура**: микросервисы, проектирование API, многоуровневое кэширование, распределённые системы
+- **DevOps и инфраструктура**: Kubernetes (в т.ч. Yandex Cloud Managed Kubernetes), Docker, Podman, Buildah, Helm, GitLab CI/CD, Harbor
+- **Linux**: более 20 лет опыта с серверными и десктопными окружениями
+- **Тестирование**: unit (Vitest, Jest), integration, E2E (supertest), нагрузочное (k6); отладка утечек памяти в production
+- **Инструменты разработчика**: MCP-серверы, ESLint-плагины, инструменты отладки
 
 ## Избранные проекты
 
@@ -36,7 +46,7 @@
   </td>
   <td width="50%" align="center">
     <h3>YouTrack MCP Server</h3>
-    <p>🎯 Полнофункциональная интеграция с YouTrack — управление задачами и продвинутая отчетность</p>
+    <p>🎯 Полнофункциональная интеграция с YouTrack — управление задачами и продвинутая отчётность</p>
     <p>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
       <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
@@ -90,34 +100,48 @@
     <a href="https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law">Посмотреть проект →</a>
   </td>
 </tr>
+<tr>
+  <td width="50%" align="center">
+    <h3>Telegram Exporter</h3>
+    <p><img src="https://cdn.simpleicons.org/telegram/26A5E4" width="16" height="16" alt="Telegram"/> Экспорт чатов и медиа Telegram на локальный диск с гибкой настройкой</p>
+    <p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Jinja-B41717?style=flat-square&logo=jinja&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/tg-export">Посмотреть проект →</a>
+  </td>
+  <td width="50%" align="center"></td>
+</tr>
 </table>
 
-## Основные достижения профессионального опыта
+## Избранные достижения
 
-- **Более 25 лет** в разработке ПО и системной архитектуре
-- **Лидерство в интеграции ИИ**: production внедрение ИИ-агентов с использованием множественных моделей (Anthropic Claude, OpenAI, Qwen, DeepSeek)
-- **Обучение команд ИИ**: Обширный опыт обучения команд разработки практическому применению и интеграции ИИ
-- **Backend-экспертиза** с возможностями frontend при необходимости
-- **Опыт руководства командой** в сложных технических проектах
-- **Международное сотрудничество** с распределенными командами разработки
-- **Постоянное обучение** и освоение новых технологий
+- **Производительность**: рост RPS в 50–100 раз на проблемных endpoints за счёт 4-уровневой системы кэширования (кэш in-flight Promise → in-memory LRU/TTL → Redis → БД)
+- **Финансовое ядро (проект под NDA)**: спроектировал и реализовал предметную область на PostgreSQL для приёма депозитов, начислений и выплат
+- **Интеграции**: CloudPayments (платежи + чеки 54-ФЗ), T-Bank, Robokassa, amoCRM
+- **Сокращение legacy**: вывел из эксплуатации 14 сервисов с неподдерживаемым кодом, заменив на 4 сервиса с поддерживаемым стеком
+- **Инфраструктура**: развернул ~30 унаследованных Node.js-микросервисов в Yandex Cloud Managed Kubernetes; создал безопасный и быстрый GitLab Runner (unprivileged Podman + Buildah + Harbor); настроил пайплайны build + deploy в Kubernetes
+- **Оптимизация затрат**: вывел нагрузку из DigitalOcean и Hetzner; подготовил план отказа от Cloudflare
+- **AI в работе команды**: внедрил AI-ассистентов (Claude Code, OpenAI Codex, VS Code Cline) в ежедневный рабочий процесс; обучил backend- и frontend-разработчиков работе с Kubernetes и отладке Node.js в нём
+- **Найм**: участвовал в закрытии позиций backend и DevOps
 
 ## Текущий фокус
 
-- **ИИ-инструменты для разработки**: Создаю интеллектуальные системы, которые повышают продуктивность разработчиков
-- **Model Context Protocol (MCP)**: Разрабатываю специализированные серверы для бесшовной интеграции с ИИ
-- **Мультиагентные системы**: Создаю сложные рабочие процессы с использованием LangGraph и подобных фреймворков
-- **Developer Experience**: Улучшаю инструменты и процессы для современной разработки ПО
+- **MCP-серверы**: специализированные серверы для работы с Anthropic Claude, OpenAI, Qwen, DeepSeek
+- **AI в production-разработке**: прагматичное внедрение AI-ассистентов в backend-разработку, тестирование и эксплуатацию
+- **Developer Experience**: инструменты и процессы для современных команд
 
 ## Языки программирования и технологии
 
-**Программирование**: TypeScript, JavaScript, Node.js, NestJS
-**Базы данных**: PostgreSQL, MongoDB
-**Кэширование и очереди**: Redis, Kafka, pg-boss
-**Инфраструктура**: Kubernetes, Yandex Cloud, Docker, Podman, Linux
-**ИИ/ML**: LangGraph, LangChain, OpenAI API, Anthropic Claude, Qwen, DeepSeek
-**Инструменты**: Git, ESLint, Webpack, Vite, различные IDE
+**Программирование (основные)**: TypeScript, JavaScript, Node.js, NestJS  
+**Программирование (с помощью AI-ассистентов)**: Python, Rust  
+**Базы данных**: PostgreSQL, MongoDB  
+**Кэширование и очереди**: Redis, RabbitMQ, Kafka, NATS, pg-boss  
+**Инфраструктура**: Kubernetes, Yandex Cloud, Docker, Podman, Buildah, Helm, GitLab CI/CD, Harbor, Linux  
+**Тестирование**: unit (Vitest, Jest), integration, E2E (supertest), нагрузочное (k6)  
+**Инструменты**: Git, ESLint, Webpack, Vite
 
 ---
 
-*Открыт для сотрудничества в интересных проектах, которые расширяют возможности инструментов разработчика и интеграции с ИИ.*
+*Открыт для сотрудничества в проектах, связанных с инструментами разработчика и интеграцией AI.*
