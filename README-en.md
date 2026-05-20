@@ -79,6 +79,28 @@ Strong focus on production reliability, observability, and pragmatic AI assistan
 </tr>
 <tr>
   <td width="50%" align="center">
+    <h3>Sentry MCP Server</h3>
+    <p>🐞 Sentry integration — list organizations and projects, query issues with filters and pagination</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/sentry-mcp">View Project →</a>
+  </td>
+  <td width="50%" align="center">
+    <h3>GitLab MCP Server</h3>
+    <p>🦊 GitLab integration — projects, merge requests with diffs and search, SemVer next-release tags</p>
+    <p>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/gitlab-mcp">View Project →</a>
+  </td>
+</tr>
+<tr>
+  <td width="50%" align="center">
     <h3>Markdown Org Extract</h3>
     <p>📝 Rust-based tool for organizing Markdown content inspired by Org Mode philosophy</p>
     <p>
@@ -89,14 +111,14 @@ Strong focus on production reliability, observability, and pragmatic AI assistan
     <a href="https://github.com/VitalyOstanin/markdown-org-extract">View Project →</a>
   </td>
   <td width="50%" align="center">
-    <h3>ESLint Prefer De Morgan's Law</h3>
-    <p>⚡ ESLint rule for applying De Morgan's law to improve code readability</p>
+    <h3>Markdown Org for VS Code</h3>
+    <p>🧩 VS Code extension for org-style task management in Markdown files</p>
     <p>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-      <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white"/>
-      <img src="https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"/>
     </p>
-    <a href="https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law">View Project →</a>
+    <a href="https://github.com/VitalyOstanin/markdown-org-vscode">View Project →</a>
   </td>
 </tr>
 <tr>
