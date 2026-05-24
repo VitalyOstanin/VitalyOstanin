@@ -13,9 +13,11 @@ Backend engineer and Tech Lead with **25+ years in IT** and **13+ years on Node.
 
 Recent highlights:
 - designed a 4-tier caching system that boosted RPS on bottleneck endpoints by 50–100×;
-- integrated payment providers (CloudPayments, T-Bank, Robokassa) and amoCRM;
+- restored broken payment processing and receipt issuance (CloudPayments); rolled out a batch of new external integrations — T-Bank, Robokassa, Yandex SmartCaptcha, amoCRM;
 - decommissioned 14 legacy services in favor of 4 maintainable ones;
 - under NDA — designed and implemented a PostgreSQL-based financial core for deposits, accruals, and payouts.
+
+Carry long-term context across complex projects; strong grounding in business domain (fintech, payments, 54-FZ fiscal receipts, CRM funnels, anti-fraud); take on complex and neglected tasks.
 
 Strong focus on production reliability, observability, and pragmatic AI assistant adoption across development teams.
 
@@ -132,7 +134,15 @@ Strong focus on production reliability, observability, and pragmatic AI assistan
     </p>
     <a href="https://github.com/VitalyOstanin/tg-export">View Project →</a>
   </td>
-  <td width="50%" align="center"></td>
+  <td width="50%" align="center">
+    <h3>Claude Dir Settings</h3>
+    <p>🔀 Per-directory Claude Code settings: <code>.claude-dir-settings.yaml</code> discovered up the directory tree</p>
+    <p>
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+    </p>
+    <a href="https://github.com/VitalyOstanin/claude-dir-settings">View Project →</a>
+  </td>
 </tr>
 </table>
 
@@ -140,12 +150,13 @@ Strong focus on production reliability, observability, and pragmatic AI assistan
 
 - **Performance**: 50–100× RPS growth on bottleneck endpoints via a 4-tier caching design (in-flight Promise cache → in-memory LRU/TTL → Redis → database)
 - **Financial core (NDA project)**: designed and built the PostgreSQL-based domain for deposits, accruals, and payouts
-- **Integrations**: CloudPayments (payments + 54-FZ fiscal receipts), T-Bank, Robokassa, amoCRM
+- **Integrations (payments + anti-fraud + CRM)**: restored CloudPayments (payments and conditional 54-FZ receipt issuance); rolled out new external systems — T-Bank, Robokassa, Yandex SmartCaptcha, amoCRM
 - **Legacy reduction**: decommissioned 14 unmaintainable services, replaced with 4 services on a supported stack
 - **Infrastructure**: deployed ~30 legacy Node.js microservices to Yandex Cloud Managed Kubernetes; built a secure, fast GitLab Runner (unprivileged Podman + Buildah + Harbor); set up build + deploy-to-Kubernetes pipelines
 - **Cost optimization**: offloaded workloads from DigitalOcean and Hetzner; prepared a plan to drop Cloudflare
 - **AI adoption**: rolled out AI assistants (Claude Code, OpenAI Codex, VS Code Cline) into the team's daily workflow; trained backend and frontend engineers on Kubernetes and Node.js debugging
 - **Hiring**: participated in closing backend and DevOps positions
+- **Context and domain**: long-term retention of project context; grounding in fintech domain (payments, fiscal receipts, CRM funnels, anti-fraud); experience with complex and neglected tasks
 
 ## Current Focus
 
