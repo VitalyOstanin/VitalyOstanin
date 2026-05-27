@@ -32,6 +32,15 @@ Strong focus on production reliability, observability, and pragmatic AI assistan
 - **Testing**: unit (Vitest, Jest), integration, E2E (supertest), load (k6); production memory-leak debugging
 - **Developer Tools**: MCP servers, ESLint plugins, debugging tools
 
+## Strengths
+
+- **Neglected tasks and legacy**: I restore system behavior without documentation (from code, logs, database state, and production behavior); push tasks across multiple iterations to a production-ready state
+- **Complex integrations**: preventive design — retry, idempotency, edge cases, and observability from day one; I don't rely on the external side being stable, I need my own view
+- **Architecture**: I design from invariants (immutable ledger, append-only, double-entry); transactional consistency and idempotency from day one; separate the hot path from heavy processing; pick the tool to match the task
+- **Leadership**: I systematize knowledge (knowledge base, foundation: [infostream](https://github.com/VitalyOstanin/infostream)); set up working development, testing, and deployment processes; on hiring, I distinguish people who actually deliver from people who just talk well
+- **AI tooling**: I roll out AI assistants into team workflows; build my own harnesses (Claude Code plugins + public MCP servers); integrate with the corporate stack; pragmatic approach — engineer's tool, not a replacement for thinking
+- **Project context and fintech domain**: I retain context of large projects over the long haul; well-grounded in payments, 54-FZ fiscal receipts, CRM funnels, and anti-fraud
+
 ## Featured Projects
 
 <table align="center">
