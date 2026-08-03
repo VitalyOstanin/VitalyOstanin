@@ -2,7 +2,7 @@
 
 [Русская версия](./README.md)
 
-**Senior Backend Developer / Tech Lead**
+**Tech Lead / Senior Backend Developer — Node.js, PostgreSQL, Kubernetes, AI engineering (MCP)**
 vitaly.ostanin@gmail.com | [GitHub](https://github.com/VitalyOstanin) | [Resume (EN)](https://github.com/VitalyOstanin/resume/blob/master/README.en.md) | [Resume (RU)](https://github.com/VitalyOstanin/resume/blob/master/README.md)
 
 > **Note**: Based in Saint Petersburg, Russia
@@ -19,6 +19,10 @@ Recent highlights:
 
 Carry long-term context across complex projects; strong grounding in business domain (fintech, payments, 54-FZ fiscal receipts, CRM funnels, anti-fraud); take on complex and neglected tasks.
 
+A separate track — **AI engineering**: 6 public MCP servers, two Claude Code plugin harnesses, rolling out AI assistants (Claude Code, OpenAI Codex, VS Code Cline) into development and testing, and training developers to work with AI agents.
+
+I run backend and DevOps at the same time, without a dedicated DevOps engineer: Kubernetes (incl. Yandex Cloud Managed), Helm charts, GitLab CI/CD, a secure runner on unprivileged Podman + Buildah + Harbor.
+
 Strong focus on production reliability, observability, and pragmatic AI assistant adoption across development teams.
 
 ## Core Expertise
@@ -30,15 +34,17 @@ Strong focus on production reliability, observability, and pragmatic AI assistan
 - **DevOps & Infrastructure**: Kubernetes (incl. Yandex Cloud Managed Kubernetes), Docker, Podman, Buildah, Helm, GitLab CI/CD, Harbor
 - **Linux Systems**: 20+ years experience with server and desktop environments
 - **Testing**: unit (Vitest, Jest), integration, E2E (supertest), load (k6); production memory-leak debugging
-- **Developer Tools**: MCP servers, ESLint plugins, debugging tools
+- **AI Engineering**: MCP protocol and 6 public MCP servers, Claude Code plugins, agentic tooling (Claude Code, Cursor, VS Code Cline), team rollout and developer training
+- **Developer Tools**: ESLint plugins, debugging tools, VS Code extensions
 
 ## Strengths
 
+- **AI engineering and MCP**: I roll out AI assistants into team workflows and train developers; I build infrastructure around the MCP protocol — 6 public MCP servers (PostgreSQL, MongoDB, GitLab, Sentry, YouTrack, Node.js debugging) and two Claude Code plugin harnesses; integrate with the corporate stack; pragmatic approach — engineer's tool, not a replacement for thinking
+- **Full-cycle DevOps**: Kubernetes (including Yandex Cloud Managed), Helm charts, GitLab CI/CD, a secure runner on unprivileged Podman + Buildah + Harbor. Example: I deployed a ~30-microservice environment and moved the services onto new pipelines without a dedicated DevOps engineer
 - **Neglected tasks and legacy**: I restore system behavior without documentation (from code, logs, database state, and production behavior); push tasks across multiple iterations to a production-ready state
 - **Complex integrations**: preventive design — retry, idempotency, edge cases, and observability from day one; I don't rely on the external side being stable, I need my own view
 - **Architecture**: I design from invariants (immutable ledger, append-only, double-entry); transactional consistency and idempotency from day one; separate the hot path from heavy processing; pick the tool to match the task
 - **Leadership**: I systematize knowledge (knowledge base, foundation: [infostream](https://github.com/VitalyOstanin/infostream)); set up working development, testing, and deployment processes; on hiring, I distinguish people who actually deliver from people who just talk well
-- **AI tooling**: I roll out AI assistants into team workflows; build my own harnesses (Claude Code plugins + public MCP servers); integrate with the corporate stack; pragmatic approach — engineer's tool, not a replacement for thinking
 - **Project context and fintech domain**: I retain context of large projects over the long haul; well-grounded in payments, 54-FZ fiscal receipts, CRM funnels, and anti-fraud
 
 ## Featured Projects
@@ -181,6 +187,7 @@ Strong focus on production reliability, observability, and pragmatic AI assistan
 **Caching & Messaging**: Redis, RabbitMQ, Kafka, NATS, pg-boss  
 **Infrastructure**: Kubernetes, Yandex Cloud, Docker, Podman, Buildah, Helm, GitLab CI/CD, Harbor, Linux  
 **Testing**: unit (Vitest, Jest), integration, E2E (supertest), load (k6)  
+**AI and agentic tooling**: MCP protocol and own MCP servers, Claude Code (incl. plugins), OpenAI Codex, VS Code Cline, Cursor  
 **Tools**: Git, ESLint, Webpack, Vite
 
 ---
