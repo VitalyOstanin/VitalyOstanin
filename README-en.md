@@ -25,12 +25,15 @@ Versatile engineer: I close a task from code to cluster and release. I run backe
     </p>
   </td>
   <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/markdown-org-extract">Markdown Org Extract</a></h3>
-    <p>The Rust core of the ecosystem: parsing Markdown with Org Mode markers, task selection, recurrence computation. Shared by the VS Code extension and the <a href="https://github.com/VitalyOstanin/markdown-org-android">Android</a> client.</p>
+    <h3><a href="https://github.com/VitalyOstanin/hunkpick">hunkpick</a></h3>
+    <p>Non-interactive unified-diff hunk picker and splitter: the scriptable alternative to <code>git add -p</code> for pipelines and AI agents, with sub-hunks addressed by stable content ids.</p>
+    <p>
+      <a href="https://crates.io/crates/hunkpick"><img src="https://img.shields.io/crates/v/hunkpick?style=flat-square" alt="crates.io version"/></a>
+    </p>
     <p>
       <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
       <img src="https://img.shields.io/badge/CLI-4D4D4D?style=flat-square&logo=gnubash&logoColor=white"/>
-      <img src="https://img.shields.io/badge/UniFFI-DEA584?style=flat-square&logo=rust&logoColor=black"/>
     </p>
   </td>
 </tr>
@@ -45,12 +48,15 @@ Versatile engineer: I close a task from code to cluster and release. I run backe
     </p>
   </td>
   <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol">MCP Chrome Debugger Protocol</a></h3>
-    <p>Node.js debugging over the Chrome DevTools Protocol from an AI assistant: breakpoints, stack frames, variables, logpoints.</p>
+    <h3><a href="https://github.com/VitalyOstanin/tg-export">tg-export</a></h3>
+    <p>Telegram chat and media exporter: incremental runs backed by SQLite, the official Takeout API, per-chat and per-folder rules, and month-by-month HTML rendering.</p>
     <p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Chrome_DevTools-4285F4?style=flat-square&logo=googlechrome&logoColor=white"/>
+      <a href="https://pypi.org/project/tg-export/"><img src="https://img.shields.io/pypi/v/tg-export?style=flat-square" alt="PyPI version"/></a>
+    </p>
+    <p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Telethon-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/>
     </p>
   </td>
 </tr>
@@ -58,7 +64,9 @@ Versatile engineer: I close a task from code to cluster and release. I run backe
 
 **MCP servers**: [PostgreSQL](https://github.com/VitalyOstanin/postgres-mcp) · [MongoDB](https://github.com/VitalyOstanin/mongodb-mcp) · [GitLab](https://github.com/VitalyOstanin/gitlab-mcp) · [Sentry](https://github.com/VitalyOstanin/sentry-mcp) · [YouTrack](https://github.com/VitalyOstanin/youtrack-mcp) · [Node.js debugger](https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol)
 
-**Tools**: [hunkpick](https://github.com/VitalyOstanin/hunkpick) — non-interactive diff hunk picker (Rust) · [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — per-directory Claude Code settings · [tg-export](https://github.com/VitalyOstanin/tg-export) — Telegram chat and media exporter (Python) · [infostream](https://github.com/VitalyOstanin/infostream) — knowledge base foundation
+**Markdown Org ecosystem**: [markdown-org-extract](https://github.com/VitalyOstanin/markdown-org-extract) — the Rust core shared by every client · [markdown-org-android](https://github.com/VitalyOstanin/markdown-org-android) — Android client (Kotlin, Jetpack Compose)
+
+**Tools**: [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — per-directory Claude Code settings · [infostream](https://github.com/VitalyOstanin/infostream) — knowledge base foundation
 
 <details>
 <summary><b>About me</b></summary>

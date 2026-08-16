@@ -25,12 +25,15 @@
     </p>
   </td>
   <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/markdown-org-extract">Markdown Org Extract</a></h3>
-    <p>Ядро экосистемы на Rust: разбор Markdown с метками Org Mode, отбор задач, вычисление повторов. Общее для расширения VS Code и клиента <a href="https://github.com/VitalyOstanin/markdown-org-android">Android</a>.</p>
+    <h3><a href="https://github.com/VitalyOstanin/hunkpick">hunkpick</a></h3>
+    <p>Неинтерактивный выбор и разрезание ханков unified diff: замена <code>git add -p</code> там, где интерактивный ввод недоступен — в скриптах и у AI-агентов. Адресация под-ханков по стабильным content id.</p>
+    <p>
+      <a href="https://crates.io/crates/hunkpick"><img src="https://img.shields.io/crates/v/hunkpick?style=flat-square" alt="Версия на crates.io"/></a>
+    </p>
     <p>
       <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
       <img src="https://img.shields.io/badge/CLI-4D4D4D?style=flat-square&logo=gnubash&logoColor=white"/>
-      <img src="https://img.shields.io/badge/UniFFI-DEA584?style=flat-square&logo=rust&logoColor=black"/>
     </p>
   </td>
 </tr>
@@ -45,12 +48,15 @@
     </p>
   </td>
   <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol">MCP Chrome Debugger Protocol</a></h3>
-    <p>Отладка Node.js через Chrome DevTools Protocol из AI-ассистента: точки останова, кадры стека, переменные, logpoints.</p>
+    <h3><a href="https://github.com/VitalyOstanin/tg-export">tg-export</a></h3>
+    <p>Экспорт чатов и медиа Telegram на локальный диск: инкрементальная выгрузка с состоянием в SQLite, официальный Takeout API, правила по чатам и папкам, HTML-просмотр переписки по месяцам.</p>
     <p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Chrome_DevTools-4285F4?style=flat-square&logo=googlechrome&logoColor=white"/>
+      <a href="https://pypi.org/project/tg-export/"><img src="https://img.shields.io/pypi/v/tg-export?style=flat-square" alt="Версия на PyPI"/></a>
+    </p>
+    <p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Telethon-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/>
     </p>
   </td>
 </tr>
@@ -58,7 +64,9 @@
 
 **MCP-серверы**: [PostgreSQL](https://github.com/VitalyOstanin/postgres-mcp) · [MongoDB](https://github.com/VitalyOstanin/mongodb-mcp) · [GitLab](https://github.com/VitalyOstanin/gitlab-mcp) · [Sentry](https://github.com/VitalyOstanin/sentry-mcp) · [YouTrack](https://github.com/VitalyOstanin/youtrack-mcp) · [отладчик Node.js](https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol)
 
-**Инструменты**: [hunkpick](https://github.com/VitalyOstanin/hunkpick) — неинтерактивный выбор ханков diff (Rust) · [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — настройки Claude Code по каталогу · [tg-export](https://github.com/VitalyOstanin/tg-export) — экспорт чатов и медиа Telegram (Python) · [infostream](https://github.com/VitalyOstanin/infostream) — основа базы знаний
+**Экосистема Markdown Org**: [markdown-org-extract](https://github.com/VitalyOstanin/markdown-org-extract) — ядро на Rust, общее для всех клиентов · [markdown-org-android](https://github.com/VitalyOstanin/markdown-org-android) — клиент для Android (Kotlin, Jetpack Compose)
+
+**Инструменты**: [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — настройки Claude Code по каталогу · [infostream](https://github.com/VitalyOstanin/infostream) — основа базы знаний
 
 <details>
 <summary><b>Обо мне</b></summary>
