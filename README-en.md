@@ -66,7 +66,7 @@ Versatile engineer: I close a task from code to cluster and release. I run backe
 
 **Markdown Org ecosystem**: [markdown-org-extract](https://github.com/VitalyOstanin/markdown-org-extract) — the Rust core shared by every client · [markdown-org-android](https://github.com/VitalyOstanin/markdown-org-android) — Android client (Kotlin, Jetpack Compose)
 
-**Tools**: [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — per-directory Claude Code settings · [infostream](https://github.com/VitalyOstanin/infostream) — knowledge base foundation
+**Tools**: [laba](https://github.com/VitalyOstanin/laba) — desktop tray dashboard and CLI over several issue trackers, Tauri + Rust · [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — per-directory Claude Code settings · [infostream](https://github.com/VitalyOstanin/infostream) — knowledge base foundation
 
 <details>
 <summary><b>About me</b></summary>

@@ -66,7 +66,7 @@
 
 **Экосистема Markdown Org**: [markdown-org-extract](https://github.com/VitalyOstanin/markdown-org-extract) — ядро на Rust, общее для всех клиентов · [markdown-org-android](https://github.com/VitalyOstanin/markdown-org-android) — клиент для Android (Kotlin, Jetpack Compose)
 
-**Инструменты**: [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — настройки Claude Code по каталогу · [infostream](https://github.com/VitalyOstanin/infostream) — основа базы знаний
+**Инструменты**: [laba](https://github.com/VitalyOstanin/laba) — настольный дашборд и CLI над несколькими трекерами задач, Tauri + Rust · [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — настройки Claude Code по каталогу · [infostream](https://github.com/VitalyOstanin/infostream) — основа базы знаний
 
 <details>
 <summary><b>Обо мне</b></summary>
