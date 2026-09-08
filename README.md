@@ -25,6 +25,20 @@
     </p>
   </td>
   <td width="50%" valign="top">
+    <h3><a href="https://github.com/VitalyOstanin/markdown-org-android">Markdown Org для Android</a></h3>
+    <p>Те же файлы задач на телефоне: агенда по дню, неделе и месяцу, несколько коллекций заметок с синхронизацией по git, напоминания о ближайшем, запись задачи одной фразой — набранной или продиктованной.</p>
+    <p>
+      <a href="https://github.com/VitalyOstanin/markdown-org-android/releases"><img src="https://img.shields.io/github/v/release/VitalyOstanin/markdown-org-android?style=flat-square&label=release" alt="Последний релиз"/></a>
+    </p>
+    <p>
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+    </p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
     <h3><a href="https://github.com/VitalyOstanin/hunkpick">hunkpick</a></h3>
     <p>Неинтерактивный выбор и разрезание ханков unified diff: замена <code>git add -p</code> там, где интерактивный ввод недоступен — в скриптах и у AI-агентов. Адресация под-ханков по стабильным content id.</p>
     <p>
@@ -36,8 +50,6 @@
       <img src="https://img.shields.io/badge/CLI-4D4D4D?style=flat-square&logo=gnubash&logoColor=white"/>
     </p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/VitalyOstanin/youtrack-mcp">YouTrack MCP Server</a></h3>
     <p>Интеграция с YouTrack по MCP: задачи, вложения, списание времени, отчёты, база знаний.</p>
@@ -47,6 +59,8 @@
       <img src="https://img.shields.io/badge/YouTrack-000000?style=flat-square&logo=jetbrains&logoColor=white"/>
     </p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/VitalyOstanin/tg-export">tg-export</a></h3>
     <p>Экспорт чатов и медиа Telegram на локальный диск: инкрементальная выгрузка с состоянием в SQLite, официальный Takeout API, правила по чатам и папкам, HTML-просмотр переписки по месяцам.</p>
@@ -59,12 +73,22 @@
       <img src="https://img.shields.io/badge/Telethon-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/>
     </p>
   </td>
+  <td width="50%" valign="top">
+    <h3><a href="https://github.com/VitalyOstanin/markdown-org-extract">markdown-org-extract</a></h3>
+    <p>Ядро экосистемы: библиотека и CLI на Rust, читающие и правящие задачи Org-mode в Markdown, включая работу с git. Расширение VS Code запускает его подпроцессом, приложение для Android линкует тот же код в процесс через UniFFI.</p>
+    <p>
+      <a href="https://crates.io/crates/markdown-org-extract"><img src="https://img.shields.io/crates/v/markdown-org-extract?style=flat-square" alt="Версия на crates.io"/></a>
+    </p>
+    <p>
+      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+      <img src="https://img.shields.io/badge/UniFFI-DEA584?style=flat-square&logo=rust&logoColor=black"/>
+      <img src="https://img.shields.io/badge/CLI-4D4D4D?style=flat-square&logo=gnubash&logoColor=white"/>
+    </p>
+  </td>
 </tr>
 </table>
 
 **MCP-серверы**: [PostgreSQL](https://github.com/VitalyOstanin/postgres-mcp) · [MongoDB](https://github.com/VitalyOstanin/mongodb-mcp) · [GitLab](https://github.com/VitalyOstanin/gitlab-mcp) · [Sentry](https://github.com/VitalyOstanin/sentry-mcp) · [YouTrack](https://github.com/VitalyOstanin/youtrack-mcp) · [отладчик Node.js](https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol)
-
-**Экосистема Markdown Org**: [markdown-org-extract](https://github.com/VitalyOstanin/markdown-org-extract) — ядро на Rust, общее для всех клиентов · [markdown-org-android](https://github.com/VitalyOstanin/markdown-org-android) — клиент для Android (Kotlin, Jetpack Compose)
 
 **Инструменты**: [laba](https://github.com/VitalyOstanin/laba) — настольный дашборд и CLI над несколькими трекерами задач, Tauri + Rust · [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — настройки Claude Code по каталогу · [infostream](https://github.com/VitalyOstanin/infostream) — основа базы знаний
 
