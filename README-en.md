@@ -11,9 +11,15 @@ Versatile engineer: I close a task from code to cluster and release. I run backe
 
 <table>
 <tr>
-  <td width="50%" valign="top">
+  <td valign="top">
     <h3><a href="https://github.com/VitalyOstanin/geoshare">geoshare</a></h3>
     <p>Location sharing within a group, such as a family: an Android application and a web page. Members sign in with ordinary Google accounts. There is no server of its own — the devices and the page talk to Cloud Firestore directly, and the security rules are the whole backend; everything runs on the free tier of Firebase.</p>
+    <p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/VitalyOstanin/geoshare/raw/HEAD/docs/images/hero-dark.webp">
+        <img src="https://github.com/VitalyOstanin/geoshare/raw/HEAD/docs/images/hero-light.webp" alt="One group on two Android devices and in a browser" width="720">
+      </picture>
+    </p>
     <p>
       <a href="https://github.com/VitalyOstanin/geoshare/releases"><img src="https://img.shields.io/github/v/release/VitalyOstanin/geoshare?style=flat-square&label=release" alt="Latest release"/></a>
     </p>
@@ -24,9 +30,17 @@ Versatile engineer: I close a task from code to cluster and release. I run backe
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
     </p>
   </td>
-  <td width="50%" valign="top">
+</tr>
+<tr>
+  <td valign="top">
     <h3><a href="https://github.com/VitalyOstanin/markdown-org-vscode">Markdown Org for VS Code</a></h3>
     <p>Org Mode-style task management in plain Markdown files: daily and weekly agenda, RRULE-based recurring tasks, git panel, calendar sync.</p>
+    <p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/VitalyOstanin/markdown-org-vscode/raw/HEAD/media/demo-agenda-dark.gif">
+        <img src="https://github.com/VitalyOstanin/markdown-org-vscode/raw/HEAD/media/demo-agenda-light.gif" alt="Day / Week / Month agenda demo" width="720">
+      </picture>
+    </p>
     <p>
       <a href="https://open-vsx.org/extension/vitalyostanin/markdown-org-vscode"><img src="https://img.shields.io/open-vsx/dt/vitalyostanin/markdown-org-vscode?label=Open%20VSX%20downloads&style=flat-square" alt="Open VSX downloads"/></a>
       <a href="https://open-vsx.org/extension/vitalyostanin/markdown-org-vscode"><img src="https://img.shields.io/open-vsx/v/vitalyostanin/markdown-org-vscode?label=version&style=flat-square" alt="Open VSX version"/></a>
@@ -39,9 +53,19 @@ Versatile engineer: I close a task from code to cluster and release. I run backe
   </td>
 </tr>
 <tr>
-  <td width="50%" valign="top">
+  <td valign="top">
     <h3><a href="https://github.com/VitalyOstanin/markdown-org-android">Markdown Org for Android</a></h3>
     <p>The same task files on the phone: a day, week and month agenda, several note collections synced over git, reminders for what is coming, and an entry written from a single sentence — typed or dictated.</p>
+    <p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/VitalyOstanin/markdown-org-android/raw/HEAD/media/agenda-day-dark.png">
+        <img src="https://github.com/VitalyOstanin/markdown-org-android/raw/HEAD/media/agenda-day-light.png" alt="The agenda, one day" width="240">
+      </picture>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/VitalyOstanin/markdown-org-android/raw/HEAD/media/agenda-week-dark.png">
+        <img src="https://github.com/VitalyOstanin/markdown-org-android/raw/HEAD/media/agenda-week-light.png" alt="The agenda, one week" width="240">
+      </picture>
+    </p>
     <p>
       <a href="https://github.com/VitalyOstanin/markdown-org-android/releases"><img src="https://img.shields.io/github/v/release/VitalyOstanin/markdown-org-android?style=flat-square&label=release" alt="Latest release"/></a>
     </p>
@@ -51,7 +75,9 @@ Versatile engineer: I close a task from code to cluster and release. I run backe
       <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
     </p>
   </td>
-  <td width="50%" valign="top">
+</tr>
+<tr>
+  <td valign="top">
     <h3><a href="https://github.com/VitalyOstanin/hunkpick">hunkpick</a></h3>
     <p>Non-interactive unified-diff hunk picker and splitter: the scriptable alternative to <code>git add -p</code> for pipelines and AI agents, with sub-hunks addressed by stable content ids.</p>
     <p>
@@ -64,48 +90,11 @@ Versatile engineer: I close a task from code to cluster and release. I run backe
     </p>
   </td>
 </tr>
-<tr>
-  <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/youtrack-mcp">YouTrack MCP Server</a></h3>
-    <p>YouTrack integration over MCP: issues, attachments, work items, time reports, knowledge base.</p>
-    <p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
-      <img src="https://img.shields.io/badge/YouTrack-000000?style=flat-square&logo=jetbrains&logoColor=white"/>
-    </p>
-  </td>
-  <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/tg-export">tg-export</a></h3>
-    <p>Telegram chat and media exporter: incremental runs backed by SQLite, the official Takeout API, per-chat and per-folder rules, and month-by-month HTML rendering.</p>
-    <p>
-      <a href="https://pypi.org/project/tg-export/"><img src="https://img.shields.io/pypi/v/tg-export?style=flat-square" alt="PyPI version"/></a>
-    </p>
-    <p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Telethon-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/>
-    </p>
-  </td>
-</tr>
-<tr>
-  <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/markdown-org-extract">markdown-org-extract</a></h3>
-    <p>The core of the ecosystem: a Rust library and CLI that read and edit Org-mode tasks in Markdown, git included. The VS Code extension runs it as a subprocess; the Android client links the same code in-process through UniFFI.</p>
-    <p>
-      <a href="https://crates.io/crates/markdown-org-extract"><img src="https://img.shields.io/crates/v/markdown-org-extract?style=flat-square" alt="crates.io version"/></a>
-    </p>
-    <p>
-      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
-      <img src="https://img.shields.io/badge/UniFFI-DEA584?style=flat-square&logo=rust&logoColor=black"/>
-      <img src="https://img.shields.io/badge/CLI-4D4D4D?style=flat-square&logo=gnubash&logoColor=white"/>
-    </p>
-  </td>
-</tr>
 </table>
 
 **MCP servers**: [PostgreSQL](https://github.com/VitalyOstanin/postgres-mcp) · [MongoDB](https://github.com/VitalyOstanin/mongodb-mcp) · [GitLab](https://github.com/VitalyOstanin/gitlab-mcp) · [Sentry](https://github.com/VitalyOstanin/sentry-mcp) · [YouTrack](https://github.com/VitalyOstanin/youtrack-mcp) · [Node.js debugger](https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol)
 
-**Tools**: [laba](https://github.com/VitalyOstanin/laba) — desktop tray dashboard and CLI over several issue trackers, Tauri + Rust · [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — per-directory Claude Code settings · [infostream](https://github.com/VitalyOstanin/infostream) — knowledge base foundation
+**Tools**: [laba](https://github.com/VitalyOstanin/laba) — desktop tray dashboard and CLI over several issue trackers, Tauri + Rust · [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — per-directory Claude Code settings · [infostream](https://github.com/VitalyOstanin/infostream) — knowledge base foundation · [markdown-org-extract](https://github.com/VitalyOstanin/markdown-org-extract) — the Markdown Org core: Rust library and CLI, crates.io · [tg-export](https://github.com/VitalyOstanin/tg-export) — Telegram chat and media exporter, Python, PyPI
 
 <details>
 <summary><b>About me</b></summary>

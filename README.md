@@ -11,9 +11,15 @@
 
 <table>
 <tr>
-  <td width="50%" valign="top">
+  <td valign="top">
     <h3><a href="https://github.com/VitalyOstanin/geoshare">geoshare</a></h3>
     <p>Местоположение участников группы, например семьи, на карте: приложение для Android и веб-страница. Вход обычным аккаунтом Google. Своего сервера нет — устройства и страница работают с Cloud Firestore напрямую, весь backend — правила безопасности; всё укладывается в бесплатный тариф Firebase.</p>
+    <p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/VitalyOstanin/geoshare/raw/HEAD/docs/images/hero-dark.webp">
+        <img src="https://github.com/VitalyOstanin/geoshare/raw/HEAD/docs/images/hero-light.webp" alt="Одна группа на двух устройствах Android и в браузере" width="720">
+      </picture>
+    </p>
     <p>
       <a href="https://github.com/VitalyOstanin/geoshare/releases"><img src="https://img.shields.io/github/v/release/VitalyOstanin/geoshare?style=flat-square&label=release" alt="Последний релиз"/></a>
     </p>
@@ -24,9 +30,17 @@
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
     </p>
   </td>
-  <td width="50%" valign="top">
+</tr>
+<tr>
+  <td valign="top">
     <h3><a href="https://github.com/VitalyOstanin/markdown-org-vscode">Markdown Org для VS Code</a></h3>
     <p>Задачи в стиле Org Mode в обычных Markdown-файлах: агенда по дням и неделям, повторяющиеся задачи по RRULE, панель git, синхронизация с календарём.</p>
+    <p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/VitalyOstanin/markdown-org-vscode/raw/HEAD/media/demo-agenda-dark.gif">
+        <img src="https://github.com/VitalyOstanin/markdown-org-vscode/raw/HEAD/media/demo-agenda-light.gif" alt="Агенда на день, неделю и месяц" width="720">
+      </picture>
+    </p>
     <p>
       <a href="https://open-vsx.org/extension/vitalyostanin/markdown-org-vscode"><img src="https://img.shields.io/open-vsx/dt/vitalyostanin/markdown-org-vscode?label=Open%20VSX%20downloads&style=flat-square" alt="Загрузки Open VSX"/></a>
       <a href="https://open-vsx.org/extension/vitalyostanin/markdown-org-vscode"><img src="https://img.shields.io/open-vsx/v/vitalyostanin/markdown-org-vscode?label=version&style=flat-square" alt="Версия в Open VSX"/></a>
@@ -39,9 +53,19 @@
   </td>
 </tr>
 <tr>
-  <td width="50%" valign="top">
+  <td valign="top">
     <h3><a href="https://github.com/VitalyOstanin/markdown-org-android">Markdown Org для Android</a></h3>
     <p>Те же файлы задач на телефоне: агенда по дню, неделе и месяцу, несколько коллекций заметок с синхронизацией по git, напоминания о ближайшем, запись задачи одной фразой — набранной или продиктованной.</p>
+    <p>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/VitalyOstanin/markdown-org-android/raw/HEAD/media/agenda-day-dark.png">
+        <img src="https://github.com/VitalyOstanin/markdown-org-android/raw/HEAD/media/agenda-day-light.png" alt="Агенда на день" width="240">
+      </picture>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/VitalyOstanin/markdown-org-android/raw/HEAD/media/agenda-week-dark.png">
+        <img src="https://github.com/VitalyOstanin/markdown-org-android/raw/HEAD/media/agenda-week-light.png" alt="Агенда на неделю" width="240">
+      </picture>
+    </p>
     <p>
       <a href="https://github.com/VitalyOstanin/markdown-org-android/releases"><img src="https://img.shields.io/github/v/release/VitalyOstanin/markdown-org-android?style=flat-square&label=release" alt="Последний релиз"/></a>
     </p>
@@ -51,7 +75,9 @@
       <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
     </p>
   </td>
-  <td width="50%" valign="top">
+</tr>
+<tr>
+  <td valign="top">
     <h3><a href="https://github.com/VitalyOstanin/hunkpick">hunkpick</a></h3>
     <p>Неинтерактивный выбор и разрезание ханков unified diff: замена <code>git add -p</code> там, где интерактивный ввод недоступен — в скриптах и у AI-агентов. Адресация под-ханков по стабильным content id.</p>
     <p>
@@ -64,48 +90,11 @@
     </p>
   </td>
 </tr>
-<tr>
-  <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/youtrack-mcp">YouTrack MCP Server</a></h3>
-    <p>Интеграция с YouTrack по MCP: задачи, вложения, списание времени, отчёты, база знаний.</p>
-    <p>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/MCP-FF6B6B?style=flat-square&logo=&logoColor=white"/>
-      <img src="https://img.shields.io/badge/YouTrack-000000?style=flat-square&logo=jetbrains&logoColor=white"/>
-    </p>
-  </td>
-  <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/tg-export">tg-export</a></h3>
-    <p>Экспорт чатов и медиа Telegram на локальный диск: инкрементальная выгрузка с состоянием в SQLite, официальный Takeout API, правила по чатам и папкам, HTML-просмотр переписки по месяцам.</p>
-    <p>
-      <a href="https://pypi.org/project/tg-export/"><img src="https://img.shields.io/pypi/v/tg-export?style=flat-square" alt="Версия на PyPI"/></a>
-    </p>
-    <p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Telethon-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/>
-    </p>
-  </td>
-</tr>
-<tr>
-  <td width="50%" valign="top">
-    <h3><a href="https://github.com/VitalyOstanin/markdown-org-extract">markdown-org-extract</a></h3>
-    <p>Ядро экосистемы: библиотека и CLI на Rust, читающие и правящие задачи Org-mode в Markdown, включая работу с git. Расширение VS Code запускает его подпроцессом, приложение для Android линкует тот же код в процесс через UniFFI.</p>
-    <p>
-      <a href="https://crates.io/crates/markdown-org-extract"><img src="https://img.shields.io/crates/v/markdown-org-extract?style=flat-square" alt="Версия на crates.io"/></a>
-    </p>
-    <p>
-      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
-      <img src="https://img.shields.io/badge/UniFFI-DEA584?style=flat-square&logo=rust&logoColor=black"/>
-      <img src="https://img.shields.io/badge/CLI-4D4D4D?style=flat-square&logo=gnubash&logoColor=white"/>
-    </p>
-  </td>
-</tr>
 </table>
 
 **MCP-серверы**: [PostgreSQL](https://github.com/VitalyOstanin/postgres-mcp) · [MongoDB](https://github.com/VitalyOstanin/mongodb-mcp) · [GitLab](https://github.com/VitalyOstanin/gitlab-mcp) · [Sentry](https://github.com/VitalyOstanin/sentry-mcp) · [YouTrack](https://github.com/VitalyOstanin/youtrack-mcp) · [отладчик Node.js](https://github.com/VitalyOstanin/mcp-chrome-debugger-protocol)
 
-**Инструменты**: [laba](https://github.com/VitalyOstanin/laba) — настольный дашборд и CLI над несколькими трекерами задач, Tauri + Rust · [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — настройки Claude Code по каталогу · [infostream](https://github.com/VitalyOstanin/infostream) — основа базы знаний
+**Инструменты**: [laba](https://github.com/VitalyOstanin/laba) — настольный дашборд и CLI над несколькими трекерами задач, Tauri + Rust · [claude-dir-settings](https://github.com/VitalyOstanin/claude-dir-settings) — настройки Claude Code по каталогу · [infostream](https://github.com/VitalyOstanin/infostream) — основа базы знаний · [markdown-org-extract](https://github.com/VitalyOstanin/markdown-org-extract) — ядро Markdown Org: библиотека и CLI на Rust, crates.io · [tg-export](https://github.com/VitalyOstanin/tg-export) — экспорт чатов и медиа Telegram, Python, PyPI
 
 <details>
 <summary><b>Обо мне</b></summary>
