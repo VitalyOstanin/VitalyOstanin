@@ -12,6 +12,19 @@
 <table>
 <tr>
   <td width="50%" valign="top">
+    <h3><a href="https://github.com/VitalyOstanin/geoshare">geoshare</a></h3>
+    <p>Местоположение участников группы, например семьи, на карте: приложение для Android и веб-страница. Вход обычным аккаунтом Google. Своего сервера нет — устройства и страница работают с Cloud Firestore напрямую, весь backend — правила безопасности; всё укладывается в бесплатный тариф Firebase.</p>
+    <p>
+      <a href="https://github.com/VitalyOstanin/geoshare/releases"><img src="https://img.shields.io/github/v/release/VitalyOstanin/geoshare?style=flat-square&label=release" alt="Последний релиз"/></a>
+    </p>
+    <p>
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+    </p>
+  </td>
+  <td width="50%" valign="top">
     <h3><a href="https://github.com/VitalyOstanin/markdown-org-vscode">Markdown Org для VS Code</a></h3>
     <p>Задачи в стиле Org Mode в обычных Markdown-файлах: агенда по дням и неделям, повторяющиеся задачи по RRULE, панель git, синхронизация с календарём.</p>
     <p>
@@ -24,6 +37,8 @@
       <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"/>
     </p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/VitalyOstanin/markdown-org-android">Markdown Org для Android</a></h3>
     <p>Те же файлы задач на телефоне: агенда по дню, неделе и месяцу, несколько коллекций заметок с синхронизацией по git, напоминания о ближайшем, запись задачи одной фразой — набранной или продиктованной.</p>
@@ -36,8 +51,6 @@
       <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
     </p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/VitalyOstanin/hunkpick">hunkpick</a></h3>
     <p>Неинтерактивный выбор и разрезание ханков unified diff: замена <code>git add -p</code> там, где интерактивный ввод недоступен — в скриптах и у AI-агентов. Адресация под-ханков по стабильным content id.</p>
@@ -50,6 +63,8 @@
       <img src="https://img.shields.io/badge/CLI-4D4D4D?style=flat-square&logo=gnubash&logoColor=white"/>
     </p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/VitalyOstanin/youtrack-mcp">YouTrack MCP Server</a></h3>
     <p>Интеграция с YouTrack по MCP: задачи, вложения, списание времени, отчёты, база знаний.</p>
@@ -59,8 +74,6 @@
       <img src="https://img.shields.io/badge/YouTrack-000000?style=flat-square&logo=jetbrains&logoColor=white"/>
     </p>
   </td>
-</tr>
-<tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/VitalyOstanin/tg-export">tg-export</a></h3>
     <p>Экспорт чатов и медиа Telegram на локальный диск: инкрементальная выгрузка с состоянием в SQLite, официальный Takeout API, правила по чатам и папкам, HTML-просмотр переписки по месяцам.</p>
@@ -73,6 +86,8 @@
       <img src="https://img.shields.io/badge/Telethon-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/>
     </p>
   </td>
+</tr>
+<tr>
   <td width="50%" valign="top">
     <h3><a href="https://github.com/VitalyOstanin/markdown-org-extract">markdown-org-extract</a></h3>
     <p>Ядро экосистемы: библиотека и CLI на Rust, читающие и правящие задачи Org-mode в Markdown, включая работу с git. Расширение VS Code запускает его подпроцессом, приложение для Android линкует тот же код в процесс через UniFFI.</p>
